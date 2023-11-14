@@ -19,7 +19,7 @@ void _print_rev_recursion(char *s)
 	if (s[x - i] == '\0')
 	{
 
-		_putchar(s[x-i-1]);
+		_putchar(s[x - i - 1]);
 		i += 2;
 		_print_rev_recursion(s);
 	}
