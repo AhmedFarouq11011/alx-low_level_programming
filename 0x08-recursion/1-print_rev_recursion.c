@@ -16,7 +16,7 @@ void _print_rev_recursion(char *s)
 {
 	int x = strlen(s);
 
-	if (s[x - i] == '\0')
+	if (s[x - i] == '\0' && x > 0)
 	{
 
 		_putchar(s[x - i - 1]);
