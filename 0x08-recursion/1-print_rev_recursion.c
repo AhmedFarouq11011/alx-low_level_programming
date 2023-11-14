@@ -23,7 +23,7 @@ void _print_rev_recursion(char *s)
 		i += 2;
 		_print_rev_recursion(s);
 	}
-	else if (x - i == 0)
+	else if (x - i == 0 && x > 0)
 	{
 		_putchar(s[x - i]);
 	}
