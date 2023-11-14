@@ -35,7 +35,7 @@ void _print_rev_recursion(char *s)
 	}
 	else if (x == 0)
 	{
-		_putchar('\0');
+		_putchar('');
 	}
 }
 
