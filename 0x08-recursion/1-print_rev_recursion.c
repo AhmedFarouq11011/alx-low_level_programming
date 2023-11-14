@@ -15,20 +15,21 @@ int i = 0;
 void _print_rev_recursion(char *s)
 {
 	int x = strlen(s);
-	if (s[x-i] == '\0')
+
+	if (s[x - i] == '\0')
 	{
 
 		_putchar(s[x-i-1]);
 		i += 2;
 		_print_rev_recursion(s);
 	}
-	else if (x-i == 0)
+	else if (x - i == 0)
 	{
-		_putchar(s[x-i]);
+		_putchar(s[x - i]);
 	}
 	else
 	{
-		_putchar(s[x-i]);
+		_putchar(s[x - i]);
 		i++;
 		_print_rev_recursion(s);
 	}
