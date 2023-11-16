@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- *_sqrt_recursion  - prints the sqrt of a number
+ *_is_prime_number  - return 0 if not prime 1 if it is
  *@n :the int to be used
  *
  * Return: Always 0.
@@ -16,7 +16,7 @@ int x = 0;
 
 int is_prime_number(int n)
 {
-	if (n <= 0)
+	if (n <= 0 || n == 1)
 	{
 		return (0);
 	}
