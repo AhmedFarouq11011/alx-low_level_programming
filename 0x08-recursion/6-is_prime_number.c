@@ -9,8 +9,7 @@
  * Return: Always 0.
  */
 
-int _sqrt_recursion(int n);
-
+int is_prime_number(int n);
 int i = 1;
 int x = 0;
 
