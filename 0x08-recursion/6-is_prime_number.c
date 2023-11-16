@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- *is_prime_number :return 0 if not prime 1 if it is
+ *is_prime_number -return 0 if not prime 1 if it is
  *@n :the int to be used
  *
  * Return: Always 0.
