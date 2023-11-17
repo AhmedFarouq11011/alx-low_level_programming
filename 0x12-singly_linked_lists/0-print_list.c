@@ -2,8 +2,8 @@
 #include "lists.h"
 
 /**
-*print_list - print a linked list
-*@h: pointer to the head 
+*_strlen - print a linked list
+*@s: string to be counted 
 *
 *Return size of the list 
 */
@@ -13,10 +13,18 @@ int _strlen(char *s)
 	int i = 0;
 	while (s[i] != '\0')
 	{
-		i ++;
+		i++;
 	}
 	return (i);
 }
+
+/**
+*print_list - print a linked list
+*@h: pointer to the head 
+*
+*Return size of the list 
+*/
+
 size_t print_list(const list_t *h)
 {
 	size_t i = 0;	
@@ -36,4 +44,3 @@ size_t print_list(const list_t *h)
 		h = h->next;
 	}
 	return (i);
-}
