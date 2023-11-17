@@ -2,8 +2,8 @@
 #include "lists.h"
 
 /**
-* _strlen - print a linked list
-* @s: string to be counted 
+*_strlen - print a linked list
+*@s :string to be counted 
 *
 * Return size of the list 
 */
@@ -19,8 +19,8 @@ int _strlen(char *s)
 }
 
 /**
-* print_list - print a linked list
-* @h: pointer to the head 
+*print_list - print a linked list
+*@h :pointer to the head 
 *
 * Return size of the list 
 */
