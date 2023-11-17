@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 #include "lists.h"
 
 /**
@@ -9,7 +8,15 @@
 *Return size of the list 
 */
 
-
+int _strlen(char *s)
+{
+	int i = 0;
+	while (s[i] != '\0')
+	{
+		i ++;
+	}
+	return (i);
+}
 size_t print_list(const list_t *h)
 {
 	size_t i = 0;	
@@ -22,7 +29,7 @@ size_t print_list(const list_t *h)
 		}
 		else
 		{
-			x = strlen(h->str);
+			x = _strlen(h->str);
 			printf("[%d] %s\n",x ,h->str);
 		}
 		i++;
@@ -30,4 +37,3 @@ size_t print_list(const list_t *h)
 	}
 	return (i);
 }
-
